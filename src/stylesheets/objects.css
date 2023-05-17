@@ -1,0 +1,97 @@
+#container {
+    margin: 10px 10px;
+    padding:0;
+    flex-wrap: wrap;
+    display: flex;
+    font-family: inherit;
+    font-size: xx-large;
+    min-height:160px;
+    align-items: flex-end
+}
+
+.listItem {
+    text-transform: lowercase;
+    justify-content: center;
+    align-items: self-end;
+    width: 130px;
+    margin: 10px;
+    transition: all 1.0s ease-in-out;
+    opacity: 0;
+    transform: translateX(-1000px);
+}
+
+.association {
+    color: teal;
+    margin-bottom: 16px;
+    width: 51px;
+}
+
+.show {
+    margin: 10px;
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.properties {
+    flex-direction: row;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.property {
+    display: flex;
+    flex-direction: column;
+    writing-mode: vertical-rl;
+    padding-bottom: 10%;
+    border: 2px solid teal;
+    border-bottom: none;
+    font-size: small;
+    margin: 0 0 0 3px;
+    background-color: #FBF2EC;
+    text-orientation: upright;
+    transition: all 1.0s ease-in-out;
+    opacity: 0;
+    transform: translateY(-1000px);
+}
+
+.show-y-axis {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.property b {
+    padding-bottom: 3px;
+}
+
+.object {
+    background: #e7e5e5;
+    border: teal 2px solid;
+    color: teal;
+    padding: 5%;
+    display: block;
+    text-align: center;
+}
+
+.reference {
+    background: #e7e5e5;
+    font-size: smaller;
+    border: teal 2px solid;
+    color: teal;
+    padding: 5%;
+    display: block;
+    text-align: center;
+}
+
+
+
+.object div {
+    border: teal 2px solid;
+    padding: 5px 0;
+    margin: auto;
+    width: 50%;
+}
+
+.object label {
+ padding: 3px 0;
+}

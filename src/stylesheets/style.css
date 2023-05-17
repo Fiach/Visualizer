@@ -1,0 +1,27 @@
+.navigation {
+  list-style: square;
+  font-size: larger;
+  color: teal;
+}
+
+.navigation li {
+  padding: 5px 0;
+}
+
+.navigation li a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+.navigation li a:link {
+  color: teal;
+}
+
+.navigation li a:visited {
+  color: teal;
+}
+
+.navigation li a:hover {
+  border-bottom: 1px solid;
+}
